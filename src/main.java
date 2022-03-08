@@ -6,6 +6,7 @@ public class main {
         Student student = new Student();
         student.get_name();
         student.get_id();
+        // something
 
         prof profEnsar = create_professor("Ensar Gül", "Computer Engineering Department");
 
