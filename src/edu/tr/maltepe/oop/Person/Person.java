@@ -6,20 +6,31 @@ public class Person {
         STUDENT
     }
 
-    public String name = "default person name";
-    public int    ID   = 0001;
-    public person_type type;
+    private String name = "default person name";
+    private int    ID   = 0001;
+    private person_type type;
 
-
-    public void get_name() {
-        System.out.println(this.name);
+    public String getName() {
+        return name;
     }
 
-    public void get_id() {
-        System.out.println(this.ID);
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public void get_type() {
-        System.out.println(this.type);
+    public int getID() {
+        return ID;
+    }
+
+    public void setID(int ID) {
+        this.ID = ID;
+    }
+
+    public person_type getType() {
+        return type;
+    }
+
+    public void setType(person_type type) {
+        this.type = type;
     }
 }
