@@ -21,4 +21,8 @@ public class Student extends Person {
     public void setDept(String dept) {
         this.dept = dept;
     }
+
+    public void talk(String s) {
+        System.out.println("Student says: " + s);
+    }
 }

@@ -12,6 +12,8 @@ public class main {
                         + " GPA of this student is " + StdBaran.getGPA()
         );
 
+        StdBaran.talk("Excuse me sir!");
+
 
         prof profEnsar = create_professor("Ensar Gül", "Computer Engineering Department");
 
@@ -20,6 +22,8 @@ public class main {
         System.out.println(
                 profEnsar.getName() + " is a lecturer at " + profEnsar.getLecture_name()
         );
+
+        profEnsar.write("Here is the list of....");
     }
 
     private static Student create_student(String name, String dept, double GPA ) {
