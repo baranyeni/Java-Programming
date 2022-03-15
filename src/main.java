@@ -1,6 +1,6 @@
-import com.example.Person.Person;
-import com.example.student.Student;
-import com.example.professor.prof;
+import edu.tr.maltepe.oop.Person.Person;
+import edu.tr.maltepe.oop.student.Student;
+import edu.tr.maltepe.oop.professor.prof;
 
 public class main {
     public static void main(String[] args) {

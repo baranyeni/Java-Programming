@@ -1,5 +1,5 @@
-package com.example.professor;
-import com.example.Person.Person;
+package edu.tr.maltepe.oop.professor;
+import edu.tr.maltepe.oop.Person.Person;
 
 public class prof extends Person {
     private String lecture_name;

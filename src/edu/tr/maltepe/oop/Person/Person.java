@@ -1,4 +1,4 @@
-package com.example.Person;
+package edu.tr.maltepe.oop.Person;
 
 public class Person {
     public enum person_type {
