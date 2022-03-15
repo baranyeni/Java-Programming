@@ -1,12 +1,14 @@
+import com.example.Person.Person;
 import com.example.student.Student;
 import com.example.professor.prof;
 
 public class main {
     public static void main(String[] args) {
-        Student student = new Student();
-        student.get_name();
-        student.get_id();
-        // something
+        Student StdBaran = create_student("Baran YENİ", "Computer Engineering Department");
+
+        StdBaran.get_name();
+        StdBaran.get_id();
+
 
         prof profEnsar = create_professor("Ensar Gül", "Computer Engineering Department");
 
@@ -14,10 +16,18 @@ public class main {
         profEnsar.get_dept();
     }
 
+    private static Student create_student(String name, String dept) {
+        Student student = new Student();
+        student.name = name;
+        student.type = Person.person_type.STUDENT;
+
+        return student;
+    }
+
     private static prof create_professor(String name, String dept) {
         prof professor = new prof();
         professor.name = name;
-        professor.dept = dept;
+        professor.type = Person.person_type.PROFESSOR;
 
         return professor;
     }

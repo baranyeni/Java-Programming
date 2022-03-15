@@ -1,15 +1,10 @@
 package com.example.professor;
+import com.example.Person.Person;
 
-public class prof {
-    public String name = "default name";
-    public String dept;
-
-    public void get_name() {
-        System.out.println(this.name);
-    }
+public class prof extends Person {
+    private String lecture_name;
 
     public void get_dept() {
-        System.out.println(this.dept);
+        System.out.println(this.type);
     }
-
 }
